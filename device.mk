@@ -443,6 +443,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     dhcpcd.conf \
     wificond \
+    wifilogd \
     wpa_supplicant \
     wpa_supplicant.conf
     
@@ -467,5 +468,5 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
 
- PRODUCT_BOOT_JARS += \
+PRODUCT_BOOT_JARS += \
     WfdCommon
